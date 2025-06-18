@@ -1,17 +1,2 @@
-hyprland
-hyprlock
-hyprshot
-hyprpicker
-waybar
-swaync
-pywal
-pywalfox
-walogram
-swww
-wallpaperchanger
-zsh
-kitty
-ranger
-firefox
-vim
-telegram
+hyprland config
+
