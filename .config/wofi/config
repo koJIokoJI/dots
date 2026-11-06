@@ -1,0 +1,15 @@
+allow_images=true
+allow_markup=true
+hide_scroll=true
+insensitive=true
+matching=fuzzy
+no_actions=true
+term=ghostty
+mode=drun
+location=top
+prompt=...
+width=400
+height=500
+image_size=30
+style=/home/mia/.config/wofi/style.css
+

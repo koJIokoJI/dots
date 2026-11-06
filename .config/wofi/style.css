@@ -1,0 +1,71 @@
+@import url("/home/mia/.cache/wal/colors-waybar.css");
+
+* {
+    font-family: "JetBrainsMono NF";
+    font-size: 15px;
+    background-image: none;
+}
+
+window {
+    background: @background;
+    border: none;
+    border-radius: 0px;
+    border: 3px solid @color3;
+    border-top: none;
+}
+
+/*#outer-box {
+    padding: 0.5rem;
+}
+*/
+
+#input {
+    background: @background;
+    color: @foreground;
+    border: 1px solid @color2;
+    border-radius: 0;
+    margin: 2px 2px 10px;
+    margin: 0.5rem;
+    padding: 10px 13px;
+}
+
+#input:focus {
+    border-color: @color1;
+    background: @background;
+    box-shadow: 0 0 0 1px @color1;
+}
+
+#entry {
+    border-left: 3px solid @color1;
+    margin: 2px;
+    margin: 0.5rem;
+    padding: 7px 10px;
+    padding: 1rem;
+}
+
+#entry:hover {
+    background: @color1;
+    border-left-color: @color1;
+}
+
+#entry:selected {
+    background: @color5;
+    border-left: 5px solid @color5;
+}
+
+#img {
+    margin-right: 10px;
+}
+
+#text {
+    color: @foreground;
+}
+
+#text:selected {
+    color: @color0;
+}
+
+#expander-box {
+    background: @background;
+    color: @foreground;
+}

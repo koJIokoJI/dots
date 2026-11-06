@@ -1,0 +1,120 @@
+@import url("/home/mia/.cache/wal/gtk.css");
+
+* {
+    font-family: JetBrainsMono NF;
+    font-size: 14px;
+    background-image: none;
+    border-color: @color1;
+    border-radius: 1px;
+    box-sizing: border-box;
+}
+
+window,
+combobox,
+box,
+tabs,
+tab,
+button,
+.view,
+placessidebar,
+tooltip {
+    background-color: @bg;
+    color: @fg;
+    border-color: @color1;
+    transition: none;
+}
+
+.combo:hover box {
+    background-color: @color2;
+    color: @bg;
+}
+
+popover {
+    background-color: @bg;
+}
+
+notebook > header.top tab:checked {
+    box-shadow: inset 0 -2px @color1;
+}
+
+notebook > header.top tab:hover:not(:checked) {
+    box-shadow: inset 0 -2px @fg;
+}
+
+slider {
+    background-color: @color1;
+    color: @fg;
+}
+
+button:hover {
+    background-color: @color2;
+    color: @bg;
+}
+
+header button:hover > * {
+    background-color: @color1;
+}
+
+button:backdrop {
+    background-color: @bg;
+    color: @fg;
+}
+
+separator {
+    background-color: @color1;
+}
+
+trough {
+    color: @color1;
+    background-color: @fg;
+    border-color: @color1;
+}
+
+scale highlight {
+    background-color: @color1;
+    border-color: @color1;
+}
+
+progress {
+    background-color: @color1;
+    border-color: @color1;
+}
+
+popover listview row:selected {
+    background-color: @bg;
+}
+
+popover listview row:hover,
+popover listview row:selected,
+popover.background modelbutton:hover {
+    color: @fg;
+    background-color: @color1;
+    border-radius: 0;
+}
+
+popover contents {
+    background-color: @bg;
+}
+
+row:hover > *,
+row:hover * {
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    color: inherit;
+}
+
+.sidebar-revealer > * {
+    background-color: transparent;
+}
+
+.text-button {
+    border: 1px solid @color1;
+}
+
+
+top-bar box:backdrop {
+    /* Set these to match your active window colors or desired shade */
+    background-color: @bg;
+    color: @fg;
+}

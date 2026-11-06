@@ -1,0 +1,42 @@
+@import "/home/mia/.cache/wal/colors-waybar.css";
+
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: "JetBrainsMono NF";
+    transition: none;
+    border-radius: 0;
+}
+
+window#waybar,
+tooltip {
+    background: @background;
+}
+
+tooltip,
+#custom-menu,
+#language,
+#pulseaudio,
+#workspaces,
+#clock {
+    padding: 0 3px;
+    margin: 0 3px;
+
+    color: @foreground;
+}
+
+#workspaces button {
+    color: @foreground;
+    padding: 0 3px;
+    border: none;
+}
+
+#workspaces button:hover {
+    background: @background;
+    box-shadow: none;
+    text-shadow: none;
+    outline: none;
+    border: none;
+}
+

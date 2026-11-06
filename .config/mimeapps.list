@@ -1,0 +1,36 @@
+[Default Applications]
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/chrome=firefox.desktop
+text/html=firefox.desktop
+application/x-extension-htm=firefox.desktop
+application/x-extension-html=firefox.desktop
+application/x-extension-shtml=firefox.desktop
+application/xhtml+xml=firefox.desktop
+application/x-extension-xhtml=firefox.desktop
+application/x-extension-xht=firefox.desktop
+image/png=sxiv.desktop
+image/jpg=sxiv.desktop
+image/jpeg=sxiv.desktop
+inode/directory=org.gnome.Nautilus.desktop
+x-directory/normal=org.gnome.Nautilus.desktop
+x-scheme-handler/discord=vesktop.desktop
+application/pdf=firefox.desktop
+application/djvu=djview.desktop
+x-scheme-handler/pttp=CiscoPacketTracerPtsa-9.0.1.desktop
+application/x-pka=CiscoPacketTracer-9.0.1.desktop
+application/x-pkt=CiscoPacketTracer-9.0.1.desktop
+application/x-pkz=CiscoPacketTracer-9.0.1.desktop
+application/x-pksz=CiscoPacketTracer-9.0.1.desktop
+
+[Added Associations]
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/chrome=firefox.desktop;
+text/html=firefox.desktop;
+application/x-extension-htm=firefox.desktop;
+application/x-extension-html=firefox.desktop;
+application/x-extension-shtml=firefox.desktop;
+application/xhtml+xml=firefox.desktop;
+application/x-extension-xhtml=firefox.desktop;
+application/x-extension-xht=firefox.desktop;
